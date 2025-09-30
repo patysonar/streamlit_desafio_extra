@@ -197,17 +197,6 @@ pip install fpdf
 3. Gere os gráficos usando as ferramentas
 4. Execute novamente `python generate_report.py`
 
-## 📧 Contato e Entrega
-
-**E-mail de entrega**: challenges@i2a2.academy
-
-**Assunto**: Agentes Autônomos – Atividade Extra
-
-**Anexar**:
-- PDF do relatório
-- Códigos-fonte (.py)
-- Link para teste online
-
 ## 📝 Licença
 
 Este projeto foi desenvolvido para fins educacionais.
