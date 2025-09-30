@@ -119,21 +119,7 @@ Agentes Autônomos – Relatório da Atividade Extra.pdf
 5. Selecione `app_streamlit.py` como main file
 6. Clique em "Deploy"
 7. Aguarde ~2 minutos
-8. URL gerada: `https://[usuario]-[repo]-[hash].streamlit.app`
-
-### Opção 2: Railway
-
-1. Crie conta no Railway.app
-2. Conecte seu repositório GitHub
-3. Deploy automático
-
-### Opção 3: Heroku
-
-1. Crie um `Procfile`:
-```
-web: streamlit run app_streamlit.py --server.port=$PORT --server.address=0.0.0.0
-```
-2. Deploy via CLI ou GitHub integration
+8. URL gerada: `https://appdesafioextragit-crsb6wy8rt4nkp9znqtubg.streamlit.app/`
 
 ## 🧠 Sistema de Memória
 
@@ -228,8 +214,6 @@ Este projeto foi desenvolvido para fins educacionais.
 
 ## 🙏 Agradecimentos
 
-Dataset utilizado: [Credit Card Fraud Detection (Kaggle)](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-
 ---
 
-**Desenvolvido com ❤️ para a disciplina de Agentes Autônomos**
+**Desenvolvido com ❤️ para o curso de Agentes Autônomos**
