@@ -184,23 +184,8 @@ def create_pdf_report():
     pdf.chapter_title("6. Link para Acesso ao Agente")
     pdf.chapter_body(
         "O agente foi implantado e esta disponivel para teste:\n\n"
-        "Link de Acesso: [INSERIR URL APOS DEPLOY NO STREAMLIT CLOUD]\n\n"
-        "Instrucoes para Deploy:\n\n"
-        "1. Streamlit Cloud (recomendado):\n"
-        "   - Criar repositorio GitHub com os arquivos\n"
-        "   - Acessar share.streamlit.io\n"
-        "   - Conectar repositorio GitHub\n"
-        "   - Selecionar app_streamlit.py como arquivo principal\n"
-        "   - Deploy automatico em ~2 minutos\n"
-        "   - URL gerada: https://[usuario]-[repo]-[hash].streamlit.app\n\n"
-        "2. Railway.app (alternativa):\n"
-        "   - Criar conta no Railway\n"
-        "   - Conectar repositorio GitHub\n"
-        "   - Adicionar variaveis de ambiente se necessario\n"
-        "   - Deploy automatico\n\n"
-        "3. Heroku (alternativa):\n"
-        "   - Criar Procfile: web: streamlit run app_streamlit.py\n"
-        "   - Deploy via CLI ou GitHub integration\n\n"
+        "Link de Acesso: [https://appdesafioextragit-crsb6wy8rt4nkp9znqtubg.streamlit.app/]\n\n"
+                
         "Execucao Local:\n"
         "  1. pip install -r requirements.txt\n"
         "  2. streamlit run app_streamlit.py\n"
@@ -334,4 +319,5 @@ if __name__ == "__main__":
         "das transacoes. Este desbalanceamento requer tecnicas especiais como SMOTE, "
         "undersampling ou algoritmos robustos para deteccao eficaz."
     )
+
     pdf.ln(3)
