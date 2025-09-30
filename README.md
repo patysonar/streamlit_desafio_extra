@@ -119,7 +119,7 @@ Agentes Autônomos – Relatório da Atividade Extra.pdf
 5. Selecione `app_streamlit.py` como main file
 6. Clique em "Deploy"
 7. Aguarde ~2 minutos
-8. URL gerada: `https://appdesafioextragit-crsb6wy8rt4nkp9znqtubg.streamlit.app/`
+8. URL gerada: https://appdesafioextragit-crsb6wy8rt4nkp9znqtubg.streamlit.app/
 
 ## 🧠 Sistema de Memória
 
